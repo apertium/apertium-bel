@@ -4,9 +4,12 @@
     <sdef n="n"       c="Noun"/>
     <sdef n="pr"      c="Preposition"/>
     <sdef n="prn"     c="Pronoun"/>
+    <sdef n="adv"     c="Adverb"/>
     <sdef n="vbser"     c="Verb 'to be'"/>
     <sdef n="cnjcoo"  c="Coordinating conjunction"/>
     <sdef n="cnjsub"  c="Adverbial conjunction"/>
+    <sdef n="abbr"       c="Abbreviation"/>
+
     <sdef n="m"       c="Masculine"/>
     <sdef n="nn"      c="Inanimate"/>
     <sdef n="aa"      c="Animate"/>
@@ -25,6 +28,7 @@
 
     <sdef n="pers"    c="Personal"/>   
     <sdef n="ref"    c="Reflexive"/>   
+    <sdef n="itg"    c=""/>   
 
     <sdef n="inf"    c=""/>   
     <sdef n="fut"    c=""/>   
@@ -184,6 +188,16 @@
       <e r="RL"><p><l><a/>з</l><r>з<s n="pr"/><s n="ins"/></r></p></e>
     </pardef>
 
+    <!-- SECTION: Adverbs -->
+
+    <pardef n="дзе__adv">
+      <e><p><l/><r><s n="adv"/><s n="itg"/></r></p></e>
+    </pardef>
+
+    <pardef n="дома__adv">
+      <e><p><l/><r><s n="adv"/></r></p></e>
+    </pardef>
+
     <!-- SECTION: Pronouns -->
 
     <pardef n="/я__prn">
@@ -263,17 +277,31 @@
 
 
     <pardef n="с/ябе__prn">
-      <e>       <p><l>ябе</l><r>ябе<s n="prn"/><s n="ref"/><s n="aa"/><s n="mfn"/><s n="sp"/><s n="gen"/></r></p></e>
-      <e>       <p><l>абе</l><r>ябе<s n="prn"/><s n="ref"/><s n="aa"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
-      <e>       <p><l>ябе</l><r>ябе<s n="prn"/><s n="ref"/><s n="aa"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
-      <e>       <p><l>абой</l><r>ябе<s n="prn"/><s n="ref"/><s n="aa"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
+      <e><p><l>ябе</l><r>ябе<s n="prn"/><s n="ref"/><s n="aa"/><s n="mfn"/><s n="sp"/><s n="gen"/></r></p></e>
+      <e><p><l>абе</l><r>ябе<s n="prn"/><s n="ref"/><s n="aa"/><s n="mfn"/><s n="sp"/><s n="dat"/></r></p></e>
+      <e><p><l>ябе</l><r>ябе<s n="prn"/><s n="ref"/><s n="aa"/><s n="mfn"/><s n="sp"/><s n="acc"/></r></p></e>
+      <e><p><l>абой</l><r>ябе<s n="prn"/><s n="ref"/><s n="aa"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
       <e r="LR"><p><l>абою</l><r>ябе<s n="prn"/><s n="ref"/><s n="aa"/><s n="mfn"/><s n="sp"/><s n="ins"/></r></p></e>
-      <e>       <p><l>абе</l><r>ябе<s n="prn"/><s n="ref"/><s n="aa"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
+      <e><p><l>абе</l><r>ябе<s n="prn"/><s n="ref"/><s n="aa"/><s n="mfn"/><s n="sp"/><s n="loc"/></r></p></e>
     </pardef>
 
+    <pardef n="/што__prn">
+      <e><p><l>што</l><r>што<s n="prn"/><s n="itg"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>чаго</l><r>што<s n="prn"/><s n="itg"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>чаму</l><r>што<s n="prn"/><s n="itg"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>што</l><r>што<s n="prn"/><s n="itg"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>чым</l><r>што<s n="prn"/><s n="itg"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>чым</l><r>што<s n="prn"/><s n="itg"/><s n="nn"/><s n="sg"/><s n="loc"/></r></p></e>
+    </pardef>
 
-
-
+    <pardef n="/хто__prn">
+      <e><p><l>хто</l><r>хто<s n="prn"/><s n="itg"/><s n="aa"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>каго</l><r>хто<s n="prn"/><s n="itg"/><s n="aa"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>каму</l><r>хто<s n="prn"/><s n="itg"/><s n="aa"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>хто</l><r>хто<s n="prn"/><s n="itg"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>кім</l><r>хто<s n="prn"/><s n="itg"/><s n="aa"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>кім</l><r>хто<s n="prn"/><s n="itg"/><s n="aa"/><s n="sg"/><s n="loc"/></r></p></e>
+    </pardef>
 
 
     <!-- SECTION: Nouns -->     
@@ -469,6 +497,13 @@
     </pardef>
 
 
+    <!-- SECTION: Abbreviations -->
+
+    <pardef n="км__abbr">
+      <e><p><l></l><r><s n="abbr"/></r></p></e>
+    </pardef>
+
+
         
   </pardefs>
   <section id="main" type="standard">     
@@ -476,7 +511,7 @@
 
     <e lm="і"><i>і</i><par n="і__cnjcoo"/></e>
     <e lm="а"><i>а</i><par n="і__cnjcoo"/></e>
-    <e lm="андак"><i>андак</i><par n="і__cnjcoo"/></e>
+    <e lm="аднак"><i>аднак</i><par n="і__cnjcoo"/></e>
     <e lm="але"><i>але</i><par n="і__cnjcoo"/></e>
     <e lm="ды"><i>ды</i><par n="і__cnjcoo"/></e>
     <e lm="ці"><i>ці</i><par n="і__cnjcoo"/></e>
@@ -542,6 +577,9 @@
 
     <e lm="сябе"><i>с</i><par n="с/ябе__prn"/></e>
 
+    <e lm="што"><i></i><par n="/што__prn"/></e>
+    <e lm="хто"><i></i><par n="/хто__prn"/></e>
+
     <!-- SECTION: Determiners -->
 
     <!-- SECTION: Numerals -->
@@ -575,12 +613,29 @@
     <e lm="аўтомабіль"><i>аўтомабіл</i><par n="партфэл/ь__n_m_nn"/></e>
 
     <e lm="станцыя"><i>станцы</i><par n="станцы/я__n_f_nn"/></e>
+    <e lm="гісторыя"><i>гісторы</i><par n="станцы/я__n_f_nn"/></e>
 
     <!-- SECTION: Proper nouns -->
 
     <!-- SECTION: Adjectives -->
 
     <!-- SECTION: Adverbs -->
+
+    <e lm="дзе"><i>дзе</i><par n="дзе__adv"/></e>
+
+    <e lm="тут"><i>тут</i><par n="дома__adv"/></e>
+    <e lm="там"><i>там</i><par n="дома__adv"/></e>
+    <e lm="зараз"><i>зараз</i><par n="дома__adv"/></e>
+    <e lm="цялер"><i>цялер</i><par n="дома__adv"/></e>
+    <e lm="тады"><i>тады</i><par n="дома__adv"/></e>
+    <e lm="зараз"><i>зараз</i><par n="дома__adv"/></e>
+    <e lm="заўсёды"><i>заўсёды</i><par n="дома__adv"/></e>
+    <e lm="сёння"><i>заўсёды</i><par n="дома__adv"/></e>
+    <e lm="заўтра"><i>заўсёды</i><par n="дома__adv"/></e>
+    <e lm="учора"><i>заўсёды</i><par n="дома__adv"/></e>
+    <e lm="зноў"><i>зноў</i><par n="дома__adv"/></e>
+
+    <e lm="дома"><i>дома</i><par n="дома__adv"/></e>
 
     <!-- SECTION: Verbs -->
 
@@ -589,6 +644,13 @@
     <!-- SECTION: Interjections -->
 
     <!-- SECTION: Abbreviations -->
+
+    <e lm="см"><i>см</i><par n="км__abbr"/></e>
+    <e lm="км"><i>км</i><par n="км__abbr"/></e>
+    <e lm="мм"><i>мм</i><par n="км__abbr"/></e>
+    <e lm="кг"><i>кг</i><par n="км__abbr"/></e>
+    <e lm="мг"><i>мг</i><par n="км__abbr"/></e>
+
 
   </section>
   <section id="final" type="inconditional">
