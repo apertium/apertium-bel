@@ -4,6 +4,7 @@
     <sdef n="n"       c="Noun"/>
     <sdef n="pr"      c="Preposition"/>
     <sdef n="prn"     c="Pronoun"/>
+    <sdef n="vbser"     c="Verb 'to be'"/>
     <sdef n="cnjcoo"  c="Coordinating conjunction"/>
     <sdef n="cnjsub"  c="Adverbial conjunction"/>
     <sdef n="m"       c="Masculine"/>
@@ -24,6 +25,12 @@
 
     <sdef n="pers"    c="Personal"/>   
     <sdef n="ref"    c="Reflexive"/>   
+
+    <sdef n="inf"    c=""/>   
+    <sdef n="fut"    c=""/>   
+    <sdef n="past"    c=""/>   
+    <sdef n="pres"    c=""/>   
+    <sdef n="imp"    c=""/>   
 
     <sdef n="p1"      c="First person"/>   
     <sdef n="p2"      c="Second person"/>   
@@ -421,7 +428,45 @@
       <e><p><l>ях</l><r>ь<s n="n"/><s n="m"/><s n="nn"/><s n="pl"/><s n="loc"/></r></p></e>
     </pardef>
 
+    <pardef n="станцы/я__n_f_nn">
+      <e><p><l>я</l><r>я<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ю</l><r>я<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>і</l><r>я<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>і</l><r>я<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>яй</l><r>я<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>і</l><r>я<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>і</l><r>я<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>і</l><r>я<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>яў</l><r>я<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>ям</l><r>я<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>ямі</l><r>я<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="ins"/></r></p></e>
+      <e><p><l>ях</l><r>я<s n="n"/><s n="f"/><s n="nn"/><s n="pl"/><s n="loc"/></r></p></e>
+    </pardef>
 
+
+
+
+    <!-- SECTION: Verbs -->
+
+    <pardef n="/быць__vbser">
+      <e><p><l>быць</l><r>быць<s n="vbser"/><s n="inf"/></r></p></e>
+
+      <e><p><l>буду</l><r>быць<s n="vbser"/><s n="fut"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>будзеш</l><r>быць<s n="vbser"/><s n="fut"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>будзе</l><r>быць<s n="vbser"/><s n="fut"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>будзем</l><r>быць<s n="vbser"/><s n="fut"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>будзеце</l><r>быць<s n="vbser"/><s n="fut"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>будуць</l><r>быць<s n="vbser"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>быў</l><r>быць<s n="vbser"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>была</l><r>быць<s n="vbser"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>было</l><r>быць<s n="vbser"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>былі</l><r>быць<s n="vbser"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
+
+      <e><p><l>будзем</l><r>быць<s n="vbser"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>будзь</l><r>быць<s n="vbser"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+
+    </pardef>
 
 
         
@@ -529,6 +574,8 @@
     <e lm="партфэль"><i>партфэл</i><par n="партфэл/ь__n_m_nn"/></e>
     <e lm="аўтомабіль"><i>аўтомабіл</i><par n="партфэл/ь__n_m_nn"/></e>
 
+    <e lm="станцыя"><i>станцы</i><par n="станцы/я__n_f_nn"/></e>
+
     <!-- SECTION: Proper nouns -->
 
     <!-- SECTION: Adjectives -->
@@ -536,6 +583,8 @@
     <!-- SECTION: Adverbs -->
 
     <!-- SECTION: Verbs -->
+
+    <e lm="быць"><i></i><par n="/быць__vbser"/></e>
 
     <!-- SECTION: Interjections -->
 
