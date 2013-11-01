@@ -1,4 +1,5 @@
 * text=auto !eol
 /apertium-bel.bel.acx -text
 /apertium-bel.bel.dix -text
+/apertium-bel.bel.rlx -text
 /modes.xml -text
