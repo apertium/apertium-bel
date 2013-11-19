@@ -2,4 +2,6 @@
 /apertium-bel.bel.acx -text
 /apertium-bel.bel.dix -text
 /apertium-bel.bel.rlx -text
+dev/bel.freq.categorised.txt -text
+dev/codes.txt -text
 /modes.xml -text
