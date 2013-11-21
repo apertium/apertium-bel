@@ -3,5 +3,7 @@
 /apertium-bel.bel.dix -text
 /apertium-bel.bel.rlx -text
 dev/bel.freq.categorised.txt -text
+dev/bel.freq.lemmatised.txt -text
 dev/codes.txt -text
+dev/lemmatised-hitparade.py -text
 /modes.xml -text
