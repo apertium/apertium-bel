@@ -40,6 +40,7 @@
     <sdef n="pers"    c="Personal"/>   
     <sdef n="ref"    c="Reflexive"/>   
     <sdef n="itg"    c=""/>   
+    <sdef n="ord"    c=""/>   
     <sdef n="dem"    c="Demonstrative"/>   
 
     <sdef n="top"    c=""/>   
@@ -49,6 +50,9 @@
     <sdef n="past"    c=""/>   
     <sdef n="pres"    c=""/>   
     <sdef n="imp"    c=""/>   
+
+    <sdef n="sup"    c=""/>   
+    <sdef n="comp"    c=""/>   
 
     <sdef n="p1"      c="First person"/>   
     <sdef n="p2"      c="Second person"/>   
@@ -803,6 +807,26 @@
       <e><p><l>ямі</l><r>е<s n="n"/><s n="nt"/><s n="nn"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
 
+    <pardef n="кр/оў__n_f_nn">
+      <e><p><l>оў</l><r>оў<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>оў</l><r>оў<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ыві</l><r>оў<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>ыві</l><r>оў<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ывёй</l><r>оў<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>ыві</l><r>оў<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
+    </pardef>
+
+    <pardef n="люб/оў__n_f_nn">
+      <e><p><l>оў</l><r>оў<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>оў</l><r>оў<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ові</l><r>оў<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>ові</l><r>оў<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>оўю</l><r>оў<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>ові</l><r>оў<s n="n"/><s n="f"/><s n="nn"/><s n="sg"/><s n="ins"/></r></p></e>
+    </pardef>
+
+
+
 
     <!-- SECTION: Proper nouns -->
 
@@ -835,37 +859,79 @@
       <e><p><l>ымі</l><r><s n="mfn"/><s n="an"/><s n="pl"/><s n="ins"/></r></p></e>
     </pardef>
 
+    <pardef n="BASE__хутк/і">
+      <e><p><l>і</l><r><s n="m"/><s n="an"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>і</l><r><s n="m"/><s n="nn"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ім</l><r><s n="m"/><s n="an"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>ім</l><r><s n="m"/><s n="an"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>ая</l><r><s n="f"/><s n="an"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ую</l><r><s n="f"/><s n="an"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ім</l><r><s n="nt"/><s n="an"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>ім</l><r><s n="nt"/><s n="an"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>ія</l><r><s n="mfn"/><s n="an"/><s n="pl"/><s n="nom"/></r></p></e>
+      <e><p><l>іх</l><r><s n="mfn"/><s n="an"/><s n="pl"/><s n="gen"/></r></p></e>
+      <e><p><l>ім</l><r><s n="mfn"/><s n="an"/><s n="pl"/><s n="dat"/></r></p></e>
+      <e><p><l>іх</l><r><s n="mfn"/><s n="aa"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>ія</l><r><s n="mfn"/><s n="nn"/><s n="pl"/><s n="acc"/></r></p></e>
+      <e><p><l>іх</l><r><s n="mfn"/><s n="an"/><s n="pl"/><s n="loc"/></r></p></e>
+      <e><p><l>імі</l><r><s n="mfn"/><s n="an"/><s n="pl"/><s n="ins"/></r></p></e>
+    </pardef>
+
+    <pardef n="BASE__хутк/ага">
+      <e><p><l>ага</l><r><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ага</l><r><s n="m"/><s n="an"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>аму</l><r><s n="m"/><s n="an"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ай</l><r><s n="f"/><s n="an"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>ай</l><r><s n="f"/><s n="an"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ай</l><r><s n="f"/><s n="an"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>ай</l><r><s n="f"/><s n="an"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>ае</l><r><s n="nt"/><s n="an"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ае</l><r><s n="nt"/><s n="an"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>аму</l><r><s n="nt"/><s n="an"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>ага</l><r><s n="nt"/><s n="an"/><s n="sg"/><s n="dat"/></r></p></e>
+    </pardef>
+
+    <pardef n="BASE__малад/ога">
+      <e><p><l>ога</l><r><s n="m"/><s n="an"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>ому</l><r><s n="m"/><s n="an"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ога</l><r><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
+      <e><p><l>ой</l><r><s n="f"/><s n="an"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>ой</l><r><s n="f"/><s n="an"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ой</l><r><s n="f"/><s n="an"/><s n="sg"/><s n="loc"/></r></p></e>
+      <e><p><l>ой</l><r><s n="f"/><s n="an"/><s n="sg"/><s n="ins"/></r></p></e>
+      <e><p><l>ое</l><r><s n="nt"/><s n="an"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ому</l><r><s n="nt"/><s n="an"/><s n="sg"/><s n="gen"/></r></p></e>
+      <e><p><l>ога</l><r><s n="nt"/><s n="an"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l>ое</l><r><s n="nt"/><s n="an"/><s n="sg"/><s n="acc"/></r></p></e>
+    </pardef>
+
+    <pardef n="друг/і__adj">
+      <e><p><l></l><r>і<s n="adj"/><s n="ord"/></r></p><par n="BASE__хутк/і"/></e>
+      <e><p><l></l><r>і<s n="adj"/><s n="ord"/></r></p><par n="BASE__малад/ога"/></e>
+    </pardef>
+
     <pardef n="малад/ы__adj">
       <e><p><l></l><r>ы<s n="adj"/></r></p><par n="BASE__малад/ы"/></e>
+      <e><p><l></l><r>ы<s n="adj"/></r></p><par n="BASE__малад/ога"/></e>
+      <e><p><l>зей</l><r>ы<s n="adj"/><s n="comp"/></r></p></e>
+      <e><p><l>зейшы</l><r>ы<s n="adj"/><s n="sup"/></r></p></e>
+    </pardef>
 
-      <e><p><l>ога</l><r><s n="adj"/><s n="m"/><s n="an"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>ому</l><r><s n="adj"/><s n="m"/><s n="an"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>ога</l><r><s n="adj"/><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>ой</l><r><s n="adj"/><s n="f"/><s n="an"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>ой</l><r><s n="adj"/><s n="f"/><s n="an"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>ой</l><r><s n="adj"/><s n="f"/><s n="an"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>ой</l><r><s n="adj"/><s n="f"/><s n="an"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>ое</l><r><s n="adj"/><s n="nt"/><s n="an"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ому</l><r><s n="adj"/><s n="nt"/><s n="an"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>ога</l><r><s n="adj"/><s n="nt"/><s n="an"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>ое</l><r><s n="adj"/><s n="nt"/><s n="an"/><s n="sg"/><s n="acc"/></r></p></e>
+    <pardef n="хут/кі__adj">
+      <e><p><l>к</l><r>кі<s n="adj"/></r></p><par n="BASE__хутк/і"/></e>
+      <e><p><l>к</l><r>кі<s n="adj"/></r></p><par n="BASE__хутк/ага"/></e>
+      <e><p><l>чэй</l><r>кі<s n="adj"/><s n="comp"/></r></p></e>
+      <e><p><l>чэйшы</l><r>кі<s n="adj"/><s n="sup"/></r></p></e>
     </pardef>
 
     <pardef n="чырвон/ы__adj">
       <e><p><l></l><r>ы<s n="adj"/></r></p><par n="BASE__малад/ы"/></e>
-
-      <e><p><l>ага</l><r><s n="adj"/><s n="m"/><s n="aa"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>ага</l><r><s n="adj"/><s n="m"/><s n="an"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>аму</l><r><s n="adj"/><s n="m"/><s n="an"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>ай</l><r><s n="adj"/><s n="f"/><s n="an"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>ай</l><r><s n="adj"/><s n="f"/><s n="an"/><s n="sg"/><s n="dat"/></r></p></e>
-      <e><p><l>ай</l><r><s n="adj"/><s n="f"/><s n="an"/><s n="sg"/><s n="loc"/></r></p></e>
-      <e><p><l>ай</l><r><s n="adj"/><s n="f"/><s n="an"/><s n="sg"/><s n="ins"/></r></p></e>
-      <e><p><l>ае</l><r><s n="adj"/><s n="nt"/><s n="an"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>ае</l><r><s n="adj"/><s n="nt"/><s n="an"/><s n="sg"/><s n="acc"/></r></p></e>
-      <e><p><l>аму</l><r><s n="adj"/><s n="nt"/><s n="an"/><s n="sg"/><s n="gen"/></r></p></e>
-      <e><p><l>ага</l><r><s n="adj"/><s n="nt"/><s n="an"/><s n="sg"/><s n="dat"/></r></p></e>
+      <e><p><l></l><r>ы<s n="adj"/></r></p><par n="BASE__хутк/ага"/></e>
     </pardef>
+
+
+
+
 
     <!-- SECTION: Verbs -->
 
@@ -1107,6 +1173,9 @@
     <e lm="значэнне"><i>значэнн</i><par n="пакаленн/е__n_nt_nn"/></e>
     <e lm="рашэнне"><i>рашэнн</i><par n="пакаленн/е__n_nt_nn"/></e>
 
+    <e lm="любоў"><i>люб</i><par n="люб/оў__n_f_nn"/></e>
+    <e lm="кроў"><i>кр</i><par n="кр/оў__n_f_nn"/></e>
+
 
     <!-- SECTION: Proper nouns -->
 
@@ -1116,6 +1185,8 @@
 
     <e lm="малады"><i>малад</i><par n="малад/ы__adj"/></e>
     <e lm="чырвоны"><i>чырвон</i><par n="чырвон/ы__adj"/></e>
+    <e lm="хуткі"><i>хут</i><par n="хут/кі__adj"/></e>
+    <e lm="другі"><i>друг</i><par n="друг/і__adj"/></e>
 
     <!-- SECTION: Adverbs -->
 
