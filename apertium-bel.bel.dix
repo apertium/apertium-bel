@@ -54,6 +54,8 @@
     <sdef n="pres"    c=""/>   
     <sdef n="imp"    c=""/>   
 
+    <sdef n="pprs"    c=""/>   
+
     <sdef n="sup"    c=""/>   
     <sdef n="comp"    c=""/>   
 
@@ -1231,6 +1233,24 @@
 
     <!-- SECTION: Verbs -->
 
+    <pardef n="BASE__чака/ю">
+      <e><p><l>ю</l><r><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>еш</l><r><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>е</l><r><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="BASE__чака/й">
+      <e><p><l></l><r><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>це</l><r><s n="p2"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="BASE__бы/ў">
+      <e><p><l>ў</l><r><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ла</l><r><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ло</l><r><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>лі</l><r><s n="mfn"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="/быць__vbser">
       <e><p><l>быць</l><r>быць<s n="vbser"/><s n="inf"/></r></p></e>
 
@@ -1241,10 +1261,7 @@
       <e><p><l>будзеце</l><r>быць<s n="vbser"/><s n="fut"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>будуць</l><r>быць<s n="vbser"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
 
-      <e><p><l>быў</l><r>быць<s n="vbser"/><s n="past"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>была</l><r>быць<s n="vbser"/><s n="past"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>было</l><r>быць<s n="vbser"/><s n="past"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>былі</l><r>быць<s n="vbser"/><s n="past"/><s n="mfn"/><s n="pl"/></r></p></e>
+      <e><p><l>бы</l><r>быць<s n="vbser"/><s n="past"/></r></p><par n="BASE__бы/ў"/></e>
 
       <e><p><l>будзем</l><r>быць<s n="vbser"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>будзь</l><r>быць<s n="vbser"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -1254,16 +1271,48 @@
     <pardef n="да/ваць__vblex_impf_tv">
       <e><p><l>ваць</l><r>ваць<s n="vblex"/><s n="impf"/><s n="tv"/><s n="inf"/></r></p></e>
 
-      <e><p><l>ю</l><r>ваць<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>еш</l><r>ваць<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>е</l><r>ваць<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ючы</l><r>ваць<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>
+
+      <e><p><l></l><r>ваць<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/></r></p><par n="BASE__чака/ю"/></e>
       <e><p><l>ём</l><r>ваць<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>яце</l><r>ваць<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>юць</l><r>ваць<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
 
-      <e><p><l>вай</l><r>ваць<s n="vbser"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>вайце</l><r>ваць<s n="vbser"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ва</l><r>ваць<s n="vblex"/><s n="impf"/><s n="tv"/><s n="past"/></r></p><par n="BASE__бы/ў"/></e>
+
+      <e><p><l>вай</l><r>ваць<s n="vbser"/><s n="imp"/></r></p><par n="BASE__чака/й"/></e>
     </pardef>
+
+    <pardef n="чака/ць__vblex_impf_tv">
+      <e><p><l>ць</l><r>ць<s n="vblex"/><s n="impf"/><s n="tv"/><s n="inf"/></r></p></e>
+
+      <!--<e><p><l>@@</l><r>ць<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pprs"/><s n="adv"/></r></p></e>-->
+
+      <e><p><l></l><r>ць<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/></r></p><par n="BASE__чака/ю"/></e>
+      <e><p><l>ем</l><r>ць<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>еце</l><r>ць<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>юць</l><r>ць<s n="vblex"/><s n="impf"/><s n="tv"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l></l><r>ць<s n="vblex"/><s n="impf"/><s n="tv"/><s n="past"/></r></p><par n="BASE__бы/ў"/></e>
+
+      <e><p><l>й</l><r>ваць<s n="vbser"/><s n="imp"/></r></p><par n="BASE__чака/й"/></e>
+    </pardef>
+
+    <pardef n="жы/ць__vblex_impf_iv">
+      <e><p><l>ць</l><r>ць<s n="vblex"/><s n="impf"/><s n="iv"/><s n="inf"/></r></p></e>
+
+      <e><p><l>вучы</l><r>ваць<s n="vblex"/><s n="impf"/><s n="iv"/><s n="pprs"/><s n="adv"/></r></p></e>
+
+      <e><p><l>в</l><r>ць<s n="vblex"/><s n="impf"/><s n="iv"/><s n="pres"/></r></p><par n="BASE__чака/ю"/></e>
+      <e><p><l>вём</l><r>ць<s n="vblex"/><s n="impf"/><s n="iv"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>вяце</l><r>ць<s n="vblex"/><s n="impf"/><s n="iv"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>вуць</l><r>ць<s n="vblex"/><s n="impf"/><s n="iv"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l></l><r>ць<s n="vblex"/><s n="impf"/><s n="iv"/><s n="past"/></r></p><par n="BASE__бы/ў"/></e>
+
+      <e><p><l>ві</l><r>ваць<s n="vbser"/><s n="imp"/></r></p><par n="BASE__чака/й"/></e>
+    </pardef>
+
 
     <!-- SECTION: Interjections -->
 
@@ -1565,6 +1614,10 @@
     <e lm="быць"><i></i><par n="/быць__vbser"/></e>
 
     <e lm="даваць"><i>да</i><par n="да/ваць__vblex_impf_tv"/></e>
+
+    <e lm="чакаць"><i>чака</i><par n="чака/ць__vblex_impf_tv"/></e>
+
+    <e lm="жыць"><i>жы</i><par n="жы/ць__vblex_impf_iv"/></e>
 
     <!-- SECTION: Interjections -->
 
