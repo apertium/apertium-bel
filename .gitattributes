@@ -15,6 +15,7 @@
 /configure.ac -text
 dev/bel.freq.categorised.txt -text
 dev/bel.freq.lemmatised.txt -text
+dev/bnkorpus.bank.nouns.dix -text
 dev/codes.txt -text
 dev/lemmatised-hitparade.py -text
 /modes.xml -text
