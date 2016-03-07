@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=@libdir@
+dir=@libdir@/apertium/apertium-bel
+srcdir=@datarootdir@/apertium/apertium-bel
+
+Name: apertium-bel
+Description: Finite-state morphological transducer and constraint grammar for Belarusian 
+Version: @VERSION@
+

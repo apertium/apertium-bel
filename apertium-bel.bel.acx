@@ -8,9 +8,4 @@
   <char value="&#183;">
     <equiv-char value="."/>
   </char>
-<!--
-  <char value="і">
-    <equiv-char value="i"/>
-  </char>
--->
 </analysis-chars>

@@ -1,7 +1,14 @@
 * text=auto !eol
+/AUTHORS -text
+/NEWS -text
+/README -text
 /apertium-bel.bel.acx -text
 /apertium-bel.bel.dix -text
 /apertium-bel.bel.rlx -text
+/apertium-bel.pc.in -text
+/apertium-bel.post-bel.dix -text
+/autogen.sh -text
+/configure.ac -text
 dev/bel.freq.categorised.txt -text
 dev/bel.freq.lemmatised.txt -text
 dev/codes.txt -text
