@@ -7,33 +7,21 @@
   </sdefs>
 
   <pardefs>
-    <pardef n="vocals">
-      <e>
-        <i>a</i>
-      </e>
-      <e>
-        <i>e</i>
-      </e>
-      <e>
-        <i>i</i>
-      </e>
-      <e>
-        <i>o</i>
-      </e>
-      <e>
-        <i>u</i>
-      </e>
+    <pardef n="cns">
+      <e><i>н</i></e>
     </pardef>
   </pardefs>
 
   <section id="main" type="standard">
-    <!-- Define entries within <e> here. See http://wiki.apertium.org/wiki/Post-generator for more information.-->
+    <!-- ~зорка ~у~ ~небе~
+         зорка ў небе -->
     <e>
+      <p><l><a/></l><r></r></p>
+      <re>[а-я]+[аеиоу]</re>
       <p>
-        <l><a/>a<b/></l>
-        <r>an<b/></r>
+        <l><b/><a/>у<a/></l>
+        <r><b/>ў<b/></r>
       </p>
-      <par n="vocals"/>
     </e>
   </section>
 </dictionary>
