@@ -8,15 +8,16 @@
 
   <section id="main" type="standard">
     <!-- 
-      "~<WORD_END_WITH_VOWEL> ~у~<...>" → "<WORD_END_WITH_VOWEL> ў<...>"
+      "~<WORD_END_WITH_VOWEL> ~у<...>" → "<WORD_END_WITH_VOWEL> ў<...>"
     -->
     <e>
       <p><l><a/></l><r></r></p>
       <re>[абвгдеёжзійклмнопрстуўфхцчшыьэюя']+[ауеоыэяюі]</re>
       <p>
-        <l><b/><a/>у<a/></l>
-        <r><b/>ў<b/></r>
+        <l><b/><a/>у</l>
+        <r><b/>ў</r>
       </p>
+      <re>[абвгдеёжзійклмнопрстуўфхцчшыьэюя']*| </re>
     </e>
     <!-- 
       "~<WORD_END_WITH_VOWEL> <...>" → "<WORD_END_WITH_VOWEL> <...>"
