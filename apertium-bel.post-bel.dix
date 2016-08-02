@@ -6,19 +6,13 @@
     <sdef n="n" c="Noun"/>
   </sdefs>
 
-  <pardefs>
-    <pardef n="cns">
-      <e><i>н</i></e>
-    </pardef>
-  </pardefs>
-
   <section id="main" type="standard">
     <!-- 
-      "~<WORD_END_WITH_VOWEL> ~у~<...>" → "<WORD_END_WITH_VOWEL> ў"
+      "~<WORD_END_WITH_VOWEL> ~у~<...>" → "<WORD_END_WITH_VOWEL> ў<...>"
     -->
     <e>
       <p><l><a/></l><r></r></p>
-      <re>[абвгдеёжзійклмнопрстуўфхцчшыьэюя]+[ауеоыэяюі]</re>
+      <re>[абвгдеёжзійклмнопрстуўфхцчшыьэюя']+[ауеоыэяюі]</re>
       <p>
         <l><b/><a/>у<a/></l>
         <r><b/>ў<b/></r>
@@ -29,7 +23,7 @@
     -->
     <e>
       <p><l><a/></l><r></r></p>
-      <re>[абвгдеёжзійклмнопрстуўфхцчшыьэюя]+[ауеоыэяюі]</re>
+      <re>[абвгдеёжзійклмнопрстуўфхцчшыьэюя']+[ауеоыэяюі]</re>
     </e>
   </section>
 </dictionary>
