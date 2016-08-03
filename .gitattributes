@@ -10,6 +10,8 @@
 /apertium-bel.bel.rlx -text
 /apertium-bel.pc.in -text
 /apertium-bel.post-bel.dix -text
+/apertium-bel.post-short-u-1.dix -text
+/apertium-bel.post-short-u-2.dix -text
 /autogen.sh -text
 /bel.prob -text svneol=unset#unset
 /configure.ac -text
