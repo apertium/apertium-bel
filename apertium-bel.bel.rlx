@@ -119,20 +119,6 @@ SET S-BOUNDARY = CS | Interr | (";") ;
 
 SECTION
 
-# Preposition based case disambiguation:
-REMOVE:Case Pr + $$CASE IF (1C Nomen - $$CASE) ; 
-REMOVE:Case Nomen + $$CASE IF (-1C Pr - $$CASE) ; 
+SELECT Pron IF (0 ("які")) (-1 COMMA) ;
+    ## Хлопчык, які быў тут.
 
-# Modifier based case, number disambiguation:
-REMOVE:Case Nomen + $$CASE IF (-1C Modifier - $$CASE) ; 
-REMOVE:Number Nomen + $$NUMBER IF (-1C Modifier - $$NUMBER) ;
-    ## в садку. у садку. у вікно. в хату. навпроти великого будинку. на своє питання
-REMOVE:Case Pr + $$CASE IF (1C Modifier - $$CASE) ;  # CHECK
-
-REMOVE:Locative Nomen + Loc IF (0 Dat OR Loc) (NOT -1 Pr + Loc) (NOT -1C Modifier + Loc);
-
-#SELECT Gen IF (-1* ("всередині") | ("навпроти") BARRIER NOTGEN) ;
-    ## вони завжди бавляться у садку навпроти великого будинку.
-    ## они всегда играют в саду напротив большого дома.
-
-REMOVE Voc IF (0C N) (0C Gen OR Voc);
