@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Belarusian], [0.1.1], [apertium-stuff@lists.sourceforge.net], [apertium-bel], [http://wiki.apertium.org/wiki/Apertium-bel])
+AC_INIT([Apertium Belarusian], [0.1.1], [apertium-stuff@lists.sourceforge.net], [apertium-bel], [https://wiki.apertium.org/wiki/Apertium-bel])
 AM_INIT_AUTOMAKE
 AC_PROG_AWK
 
