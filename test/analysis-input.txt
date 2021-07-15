@@ -1,0 +1,6 @@
+# from https://wiki.apertium.org/wiki/Belarusian_and_Russian/Pending_tests
+зорка ў небе
+моцны ўдар
+Ён быў у доме.
+Газета "Праўда" ўзнавіла публікацыю.
+Я ўпала ў доме.

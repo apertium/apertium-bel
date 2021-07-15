@@ -1,0 +1,10 @@
+[1CwoNNz19g9v#0] ^Газета/газета<n><f><nn><sg><nom>$ "^Праўда/праўда<n><f><nn><sg><nom>$" ^ўзнавіла/узнавіць<vblex><perf><past><f><sg>/узнавіць<vblex><perf><past><nt><sg>$ ^публікацыю/публікацыя<n><f><nn><sg><acc>$^./.<sent>$
+[/1CwoNNz19g9v]
+[89KHRRGRFDfm#0] ^Я/я<prn><pers><p1><mf><sg><nom>$ ^ўпала/упалы<adj><cmp>/упасці<vblex><perf><past><f><sg>/упасці<vblex><perf><past><nt><sg>$ ^ў/у<pr>$ ^доме/дом¹<n><m><nn><sg><loc>/дом²<n><m><nn><sg><loc>$^./.<sent>$
+[/89KHRRGRFDfm]
+[VyRRwFfyzwhu#0] ^зорка/зорка<adv>/зоркі<adj><cmp>/зорка<n><f><nn><sg><nom>$ ^ў/у<pr>$ ^небе/неба<n><nt><nn><sg><loc>$
+[/VyRRwFfyzwhu]
+[hxvmvgRjztfX#0] ^Ён/ён<prn><pers><p3><m><sg><nom>$ ^быў/быць<vblex><impf><past><m><sg>$ ^у/у<pr>$ ^доме/дом¹<n><m><nn><sg><loc>/дом²<n><m><nn><sg><loc>$^./.<sent>$
+[/hxvmvgRjztfX]
+[tvw9_ILX1DO9#0] ^моцны/моцны<adj><m><an><sg><nom>/моцны<adj><m><nn><sg><acc>$ ^ўдар/удар<n><m><nn><sg><nom>/удар<n><m><nn><sg><acc>/ударыць<vblex><perf><imp><p2><sg>$
+[/tvw9_ILX1DO9]
